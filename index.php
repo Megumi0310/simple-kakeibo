@@ -64,7 +64,7 @@ $records = $stmt->fetchAll();
                 <th scope="col" class="col-3">操作</th>
               </tr>
             </thead>
-
+ 
             <tbody>
               <!-- foreachタグ：配列のデータを順番に表示-->
             <?php foreach($records as $record):?>
